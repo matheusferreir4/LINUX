@@ -1,0 +1,23 @@
+1- date
+
+2- sudo date -s "2050-05-01"
+
+3-mkdir CURSOS
+
+4- cal 2017 > CURSOS/CALENDARIO.TXT
+
+5- echo "Distribuiçaõ nada mais é que um pacote do Kernel do sistemas operacional mais os programas que o acompanham.\n\nEste pacote, incluindo as ferramentas necessárias para sua instalação, é chamado de distribuição." >> CURSOS/PROVA.TXT
+
+6- cat CURSOS/PROVA.TXT
+
+7- more CURSOS/PROVA.TXT
+
+8- less CURSOS/PROVA.TXT
+
+9- echo "Distribuição nada mais é que um pacote do kernel do sistema operacional mais o programas que o acompanham." >> CURSOS/LINHA.TXT
+
+10- tail -n 1 CURSOS/LINHA.TXT
+
+11- wc -l CURSOS/LINHA.TXT   
+
+12- echo -e "Matheus\nGustavo\nJoão\,Ryan\nSnow" > CURSOS/NOMES.TXT
