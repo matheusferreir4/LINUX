@@ -1,4 +1,5 @@
 # LINUX
 
-<h2>Informática Instrumental</h2>
-<p>Primeiro período do TSI</p>
+<h2>Disciplinas:</h2>
+<ul>
+  <li>Informática Instrumental<p>(Primeiro período do TSI.)</p></li>
