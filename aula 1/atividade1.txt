@@ -1,0 +1,51 @@
+//Qual a definição de um Sistema Operacional e os seus principais objetivos?
+Um Sistema Operacional é um software que atua como interface entre hardware e aplicativos. Seus principais objetivos incluem gerenciar recursos de hardware, fornecer um ambiente de execução seguro para aplicativos, oferecer serviços essenciais aos usuários e garantir a eficiência do sistema como um todo.
+
+//O que é um software livre? Defina as 4 características básicas para um software ser considerado livre?
+Um software livre é aquele que concede aos usuários quatro liberdades essenciais: uso para qualquer finalidade, acesso ao código-fonte, redistribuição e modificação. Essas características garantem a liberdade dos usuários para controlar e adaptar o software às suas necessidades.
+
+//O que é o Kernel do Linux?
+O Kernel do Linux é o componente central do sistema operacional Linux. Ele gerencia os recursos de hardware do computador e fornece uma interface para que os programas possam interagir com o hardware de forma eficiente. O Kernel é responsável por tarefas como gerenciamento de memória, escalonamento de processos, controle de dispositivos e gerenciamento de sistemas de arquivos.
+
+//Defina a função de cada comando:
+
+ls - Lista os arquivos e diretórios no diretório atual.
+cd - Muda o diretório atual para o especificado.
+pwd - Mostra o diretório atual em que você está.
+mkdir - Cria um novo diretório.
+touch - Cria um novo arquivo vazio ou atualiza o carimbo de data/hora de um arquivo existente.
+
+//Qual a diferença entre um arquivo binário e um arquivo texto?
+Um arquivo binário é composto por uma sequência de bytes que representam dados de forma não interpretável diretamente pelo usuário. Geralmente, são usados para armazenar informações em um formato que pode ser processado por um computador, como executáveis de programas ou dados compactados.
+
+Já um arquivo texto é composto por caracteres legíveis e geralmente contém informações em formato textual, como letras, números e símbolos, codificados em uma codificação de caracteres específica (como ASCII ou UTF-8). Esses arquivos são geralmente criados e editados por humanos em editores de texto simples ou avançados e podem ser lidos e interpretados diretamente.
+
+//Para que serve a extensão de um arquivo?
+A extensão de arquivo é uma parte do nome do arquivo que segue um ponto e indica o tipo de conteúdo ou formato de dados que o arquivo contém. Ela serve para identificar rapidamente o tipo de arquivo e o programa associado que pode ser usado para abrir, visualizar ou manipular esse arquivo. Além disso, a extensão também ajuda os sistemas operacionais a associarem automaticamente os tipos de arquivos aos programas apropriados.
+
+//O que representa o diretório raiz do Sistema Operacional Linux?
+No sistema operacional Linux, o diretório raiz é representado pelo caractere "/". Ele é o diretório principal que contém todos os outros diretórios e arquivos do sistema. O diretório raiz é o ponto de partida absoluto para a hierarquia de diretórios do sistema de arquivos Linux. Todos os outros diretórios e arquivos são organizados a partir deste diretório principal.
+
+//Suponha que você acessou um terminal de um sistema operacional Linux já com um usuário logado, e o terminal aparece da seguinte maneira:
+1	2	  3      4      5
+admin@maq-virtual:~/Documentos:$
+
+Descreva cada um dos itens numerados:
+
+1 -  É o nome do usuário que está atualmente logado no sistema.
+2 -  É o nome da máquina ou host do sistema.
+3 -  É o diretório atual em que o usuário está localizado. 
+4 -  É o diretório atual em que o usuário está localizado. O caractere "~" representa o diretório pessoal do usuário, e "Documentos" é o nome do diretório.
+5 - É o prompt de comando, indicando que o terminal está pronto para receber comandos do usuário.
+
+//Como descobrimos em qual diretório o usuário logado se encontra?
+Para descobrir em qual diretório o usuário logado se encontra, você pode usar o comando `pwd` no terminal. `pwd` significa "print working directory" (imprimir diretório de trabalho) e ele exibe o caminho completo do diretório atual em que o usuário está. Basta digitar `pwd` e pressionar Enter no terminal, e ele mostrará o diretório atual.
+
+//Qual a diferença entre referência relativa e referência absoluta de um diretório?
+Uma referência relativa de diretório especifica o caminho em relação ao diretório atual, enquanto uma referência absoluta indica o caminho completo a partir do diretório raiz do sistema, representado por "/". Referências relativas são mais flexíveis e dependem do contexto atual, enquanto referências absolutas fornecem um caminho completo e independente do contexto.
+
+//O que os comandos representam para um sistema operacional?
+Os comandos em um sistema operacional representam instruções que os usuários fornecem para executar tarefas específicas. Eles permitem que os usuários interajam com o sistema, realizando operações como manipulação de arquivos, navegação entre diretórios, execução de programas e configuração do sistema. Os comandos são essenciais para controlar e gerenciar um sistema operacional de forma eficiente.
+
+//Para que servem os parâmetros dos comandos?
+Os parâmetros dos comandos são usados para fornecer informações adicionais ou instruções específicas para a execução do comando. Eles permitem personalizar o comportamento do comando, fornecendo opções, argumentos ou dados necessários para que o comando realize sua tarefa de forma específica. Os parâmetros são essenciais para tornar os comandos mais flexíveis e adaptáveis a diferentes situações ou requisitos de uso.

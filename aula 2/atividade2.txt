@@ -1,0 +1,38 @@
+#!/bin/bash
+# Este é um script shell básico
+
+# Exibe a data atual do sistema
+date
+
+# Altera a data do sistema para 01/05/2050
+sudo date --set="2050-05-01"
+
+# Cria o diretório CURSOS no diretório home do usuário aluno
+mkdir ~/CURSOS
+
+# Exporta a saída do calendário de 2017 para o arquivo CURSOS/CALENDARIO.TXT
+cal 2017 > ~/CURSOS/CALENDARIO.TXT
+
+# Cria o arquivo PROVA.TXT dentro do diretório CURSOS com o texto fornecido
+echo "Distribuição nada mais é que um pacote do kernel do sistema operacional mais os programas que o acompanham. Este pacote, incluindo as ferramentas necessárias para sua instalação, é chamado de distribuição." > ~/CURSOS/PROVA.TXT
+
+# Exibe na tela todo o conteúdo do arquivo PROVA.TXT
+cat ~/CURSOS/PROVA.TXT
+
+# Lê o conteúdo do arquivo PROVA.TXT usando o comando more
+more ~/CURSOS/PROVA.TXT
+
+# Lê o conteúdo do arquivo PROVA.TXT usando o comando less
+less ~/CURSOS/PROVA.TXT
+
+# Cria o arquivo LINHA.TXT dentro do diretório CURSOS com as 2 primeiras linhas do arquivo PROVA.TXT
+head -n 2 ~/CURSOS/PROVA.TXT > ~/CURSOS/LINHA.TXT
+
+# Lê a última linha do arquivo LINHA.TXT
+tail -n 1 ~/CURSOS/LINHA.TXT
+
+# Executa o comando para contar o número de linhas do arquivo LINHA.TXT
+wc -l ~/CURSOS/LINHA.TXT
+
+# Cria o arquivo NOMES.TXT dentro do diretório CURSOS com 5 nomes aleatórios um abaixo do outro
+echo -e "Nome1\nNome2\nNome3\nNome4\nNome5" > ~/CURSOS/NOMES.TXT

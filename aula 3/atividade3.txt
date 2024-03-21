@@ -1,0 +1,38 @@
+#!/bin/bash
+# Este é um script para demonstrar comandos no Ubuntu
+
+# Vá para o diretório pessoal do usuário [seu nome]
+cd ~
+
+# Liste o diretório em que você se encontra
+ls
+
+# Crie o diretório teste1
+mkdir teste1
+
+# Crie os diretórios teste2 e teste3 com apenas um comando
+mkdir teste2 teste3
+
+# Entre no diretório teste1
+cd teste1
+
+# Liste o diretório em que você se encontra
+ls
+
+# Suba um diretório (..) e entre imediatamente no diretório teste2
+cd .. && cd teste2
+
+# Liste o diretório em que você se encontra
+ls
+
+# Crie um arquivo chamado arquivo1.txt com o conteúdo especificado
+echo -e "Linha1\nLinha2\nLinha3\n\nLinha4\n\n\n\nLinha5\n\n\n\n\n\n\nLinha6" > arquivo1.txt
+
+# Mostre o conteúdo do arquivo arquivo1.txt com o comando cat
+cat arquivo1.txt
+
+# Mostre o conteúdo do arquivo arquivo1.txt com o comando cat apresentando o número das linhas
+cat -n arquivo1.txt
+
+# Mostre o conteúdo do arquivo arquivo1.txt com o comando cat apresentando não mais do que uma linha em branco entre os parágrafos
+cat -s arquivo1.txt
